@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+.jumbotron{
+    background-image: url(/img/colinburn-chess2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+
+}
+body{
+    background-color: #343a40;;
+}
+
+h1{
+    color: orange;
+    text-shadow: 0 0 5px #222;
+    font-size: 45px;
+}
+.jumbotron p{
+    color: #fff;
+    font-size: 30px;
+}
+.nav-link{
+    color: #000 !important; 
+}
+
+h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.n-left{
+    height: 500px;
+    background-color: orange;
+}
+.n-right{
+    height: 500px;
+    background-color: black;
+    
+}
+.n-right img{
+    width: 100%;
+}
+
+.imgheader{
+    size: 1px;
+    height: 50px;
+    width: auto;
+}
+
+/* footer */
+.whpp {
+    border-radius: 50%;
+    width: 50px;
+    height: auto;
+  }
+  
+  .ig {
+    width: 50px;
+    height: auto;
+  }
+  
+  .twitter {
+    width: 50px;
+    height: auto;
+  }
+  
+
+/* TABLERO.HTML, RELOJES.HTML */
+/* --------------- seccion de ajedres ------------------ */
+.contenedorAjedrez {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0%;
+    background-color: #000;
+}
+
+.contenedorAjedrez img {
+    width: 100%;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.claseAjedres {
+    width: 300px;
+    margin: 2% 2%;
+    transition: all 0.5s;
+ }
+
+ .claseAjedres:hover {
+     color: #ffc107;
+     transform: scale(1.1);
+ }
+
+/*     Libros     */
+
+.libros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
